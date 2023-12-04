@@ -3,7 +3,7 @@ const Experience: () => JSX.Element = () => {
     <section id="experience" className="bg-white py-8">
       <div className="container mx-auto flex flex-col items-center">
         <h2 className="text-4xl font-bold mb-6 text-indigo-950">Experience</h2>
-        <div className="text-left">
+        <div className="text-left mx-4 md:mx-0">
           <p className="text-2xl text-indigo-900 mb-2 font-bold">
             Software Developer • ScaleMote
           </p>

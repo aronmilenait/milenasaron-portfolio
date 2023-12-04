@@ -9,7 +9,7 @@ const Projects: () => JSX.Element = () => {
         </h3>
         {projectsData.map((project, index) => (
           <div key={index} className="mb-8 mx-auto max-w-md">
-            <div className="p-6 border border-indigo-500 shadow-lg border-2 rounded-md">
+            <div className="p-6 border border-indigo-500 shadow-lg border-2 rounded-md md:mx-0">
               <p className="text-xl font-semibold mb-2 text-indigo-900">
                 {project.title}
               </p>
@@ -22,7 +22,7 @@ const Projects: () => JSX.Element = () => {
                 {project.technologies.map((technologies, techIndex) => (
                   <span
                     key={techIndex}
-                    className="mr-2 mb-2 px-3 py-1 bg-indigo-100 text-indigo-800 rounded-lg"
+                    className="mr-2 mb-2 px-3 py-1 bg-indigo-100 text-indigo-800 rounded-lg block sm:inline-block"
                   >
                     {technologies}
                   </span>
@@ -33,7 +33,7 @@ const Projects: () => JSX.Element = () => {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-indigo-600 underline hover:text-indigo-800"
+                className="text-indigo-600 underline hover:text-indigo-800 block md:inline-block"
               >
                 View project
               </a>

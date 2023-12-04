@@ -1,4 +1,4 @@
-import aboutMeImg from "../assets/about-me.png";
+import aboutMeImg from "../assets/about-me2.png";
 
 const AboutMe: () => JSX.Element = () => {
   return (
@@ -7,7 +7,7 @@ const AboutMe: () => JSX.Element = () => {
         <img
           src={aboutMeImg}
           alt="About Me"
-          className="rounded-full border-4 border-indigo-900 shadow-lg w-1/2 md:w-auto mb-4"
+          className="rounded-full border-8 border-indigo-200 shadow-lg w-1/2 md:w-auto mb-4"
         />
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-2 text-indigo-950">
