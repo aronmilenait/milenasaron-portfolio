@@ -6,6 +6,12 @@ const projectsData = [
     link: "https://milenasaron.vercel.app/",
   },
   {
+    title: "Bookshelf (Coming soon)",
+    description: "Book API that handles CRUD operations.",
+    technologies: ["NestJS", "TypeScript", "Docker", "MySQL", "React"],
+    link: "https://github.com/aronmilenait",
+  },
+  {
     title: "Astronomy 101",
     description:
       "A landing page that I created for a introductory course (Not a real one: I just love astronomy).",
