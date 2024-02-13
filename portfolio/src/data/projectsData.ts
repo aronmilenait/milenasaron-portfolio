@@ -1,7 +1,7 @@
 const projectsData = [
   {
     title: "Portfolio",
-    description: "My portfolio as a software developer. You are here now!",
+    description: "My portfolio as a Full-Stack developer and SysAdmin in progress. You are here now!",
     technologies: ["Vite", "TypeScript", "ReactJS", "Tailwind CSS"],
     link: "https://milenasaron.vercel.app/",
   },
@@ -9,14 +9,7 @@ const projectsData = [
     title: "Bookshelf (Coming soon)",
     description: "Book API that handles CRUD operations.",
     technologies: ["NestJS", "TypeScript", "Docker", "MySQL", "React"],
-    link: "https://github.com/aronmilenait",
-  },
-  {
-    title: "Astronomy 101",
-    description:
-      "A landing page that I created for a introductory course (Not a real one: I just love astronomy).",
-    technologies: ["ReactJS", "Bootstrap"],
-    link: "https://aronmilenait.github.io/astronomy-web-app/",
+    link: "https://github.com/aronmilenait/book-api",
   },
   {
     title: "Currency Converter",
