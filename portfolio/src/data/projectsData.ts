@@ -1,14 +1,29 @@
 const projectsData = [
   {
-    title: "Portfolio",
-    description: "My portfolio as a Full-Stack developer and SysAdmin in progress. You are here now!",
-    technologies: ["Vite", "TypeScript", "ReactJS", "Tailwind CSS"],
-    link: "https://milenasaron.vercel.app/",
+    title: "Pokedex",
+    description: "Cute Pokedex that features the PokéAPI.",
+    technologies: [
+      "Vite",
+      "TypeScript",
+      "RESTFul API",
+      "ReactJS",
+      "Axios",
+      "Tailwind CSS",
+      "Vercel",
+    ],
+    link: "https://pokedex-milenasaron.vercel.app/",
   },
   {
-    title: "Bookshelf (Coming soon)",
+    title: "Bookshelf (Back-End - No UI yet)",
     description: "Book API that handles CRUD operations.",
-    technologies: ["NestJS", "TypeScript", "Docker", "MySQL", "React"],
+    technologies: [
+      "NestJS",
+      "TypeScript",
+      "Docker",
+      "MySQL",
+      "ReactJS",
+      "TypeORM",
+    ],
     link: "https://github.com/aronmilenait/book-api",
   },
   {

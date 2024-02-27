@@ -2,7 +2,10 @@ import educationData from "../data/educationData";
 
 const Education: () => JSX.Element = () => {
   return (
-    <section id="education" className="bg-gradient-to-r from-pink-50 to-pink-100 py-8">
+    <section
+      id="education"
+      className="bg-gradient-to-r from-pink-50 to-pink-100 py-8"
+    >
       <div className="container mx-auto sm:text-left">
         <h4 className="text-4xl font-bold mb-6 text-pink-950 text-center">
           Education

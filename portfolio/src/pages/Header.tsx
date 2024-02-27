@@ -4,8 +4,8 @@ import Sparkle from "react-sparkle";
 const Header: () => JSX.Element = () => {
   return (
     <header className="bg-white text-pink-900 py-4 sticky top-0 z-50">
-       <Sparkle
-        color={'#f472b6'}
+      <Sparkle
+        color={"#f472b6"}
         count={50}
         minSize={5}
         maxSize={12}
