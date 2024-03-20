@@ -1,17 +1,9 @@
 const projectsData = [
   {
-    title: "Pokedex",
-    description: "Cute Pokedex that features the PokéAPI.",
-    technologies: [
-      "Vite",
-      "TypeScript",
-      "RESTFul API",
-      "ReactJS",
-      "Axios",
-      "Tailwind CSS",
-      "Vercel",
-    ],
-    link: "https://pokedex-milenasaron.vercel.app/",
+    title: "Switch to Linux",
+    description: "A website that matches my two passions: coding and GNU/Linux.",
+    technologies: ["Vite", "TypeScript", "ReactJS", "Tailwind CSS", "Vercel"],
+    link: "https://switchtolinux.vercel.app/",
   },
   {
     title: "Bookshelf (Back-End - No UI yet)",
@@ -32,6 +24,20 @@ const projectsData = [
       "A currency converter that I made for the R/Argentina-Programa course.",
     technologies: ["Vanilla JS", "RESTFul API", "HTML/CSS"],
     link: "https://aronmilenait.github.io/currency_converter/",
+  },
+  {
+    title: "Pokedex",
+    description: "Cute Pokedex that features the PokéAPI.",
+    technologies: [
+      "Vite",
+      "TypeScript",
+      "RESTFul API",
+      "ReactJS",
+      "Axios",
+      "Tailwind CSS",
+      "Vercel",
+    ],
+    link: "https://pokedex-milenasaron.vercel.app/",
   },
   {
     title: "Ocean Memotest",

@@ -3,7 +3,7 @@ import projectsData from "../data/projectsData";
 const Projects: () => JSX.Element = () => {
   return (
     <section id="projects" className="bg-white py-8">
-      <div className="container mx-auto sm:text-left">
+      <div className="mx-auto max-w-4xl container sm:text-left">
         <h5 className="text-4xl font-bold mb-6 text-pink-950 text-center">
           Projects
         </h5>
