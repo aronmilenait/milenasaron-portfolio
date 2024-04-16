@@ -22,7 +22,7 @@ const projectsData = [
     link: "https://switchtolinux.vercel.app/",
   },
   {
-    title: "Bookshelf (Back-End - No UI yet)",
+    title: "Bookshelf (Back-end)",
     description: "Book API that handles CRUD operations.",
     technologies: [
       "NestJS",
@@ -48,6 +48,20 @@ const projectsData = [
     technologies: ["Vanilla JS", "Bootstrap", "HTML/CSS"],
     link: "https://aronmilenait.github.io/memotest/",
   },
+  {
+    title: "Pokedex",
+    description: "Cute Pokedex that features the PokéAPI.",
+    technologies: [
+      "Vite",
+      "TypeScript",
+      "RESTFul API",
+      "ReactJS",
+      "Axios",
+      "Tailwind CSS",
+      "Vercel",
+    ],
+    link: "https://pokedex-milenasaron.vercel.app/",
+  }
 ];
 
 export default projectsData;
