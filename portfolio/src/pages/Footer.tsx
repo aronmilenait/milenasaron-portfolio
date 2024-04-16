@@ -1,7 +1,7 @@
-const Footer: () => JSX.Element = () => {
+const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-pink-50 to-pink-300 text-pink-900 font-bold py-8 shadow-md">
-      <div className="container mx-auto text-center">
+    <footer className="bg-gradient-to-r from-pink-600 to-pink-700 text-pink-50 font-medium py-8 shadow-md">
+      <div className="container mx-auto text-center text-lg">
         <p>Made with ❤️ by Milena S. Aron</p>
       </div>
     </footer>

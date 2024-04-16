@@ -1,7 +1,7 @@
-import avatar from "../assets/avatar2.png";
+import avatar from "../assets/avatar3.png";
 import Sparkle from "react-sparkle";
 
-const Header: () => JSX.Element = () => {
+const Header = () => {
   return (
     <header className="bg-white text-pink-900 py-4 sticky top-0 z-50">
       <Sparkle
@@ -17,12 +17,14 @@ const Header: () => JSX.Element = () => {
         <img
           src={avatar}
           alt="Avatar"
-          className="rounded-full border-8 border-pink-200 shadow-md w-16 h-16 md:w-24 md:h-24"
+          className="rounded-full border-4 border-pink-300 shadow-md w-24 h-24 md:w-32 md:h-32"
         />
-        <p className="text-xl ml-4 font-bold">
-          {" "}
-          Full-Stack Developer • SysAdmin (In Progress) • Marketing Tech
-        </p>
+        <div className="ml-4">
+          <h1 className="text-2xl font-bold text-pink-900">Milena S. Aron</h1>
+          <p className="text-xl text-pink-700">
+            Full-Stack Developer &bull; Marketing Tech
+          </p>
+        </div>
       </div>
     </header>
   );

@@ -1,6 +1,6 @@
 import projectsData from "../data/projectsData";
 
-const Projects: () => JSX.Element = () => {
+const Projects = () => {
   return (
     <section id="projects" className="bg-white py-8">
       <div className="mx-auto max-w-4xl container sm:text-left">
