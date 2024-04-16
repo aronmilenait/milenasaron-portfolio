@@ -1,6 +1,6 @@
 import educationData from "../data/educationData";
 
-const Education: () => JSX.Element = () => {
+const Education = () => {
   return (
     <section
       id="education"

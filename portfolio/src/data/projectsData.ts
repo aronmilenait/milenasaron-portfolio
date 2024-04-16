@@ -1,7 +1,23 @@
 const projectsData = [
   {
+    title: "Selene (Coming soon)",
+    description: "A web app and social network for astronomy enthusiasts.",
+    technologies: [
+      "Vite",
+      "TypeScript",
+      "ReactJS",
+      "AWS Cognito",
+      "NestJS",
+      "REST API",
+      "Tailwind CSS",
+      "Axios",
+    ],
+    link: "https://github.com/aronmilenait/selene-front-end",
+  },
+  {
     title: "Switch to Linux",
-    description: "A website that matches my two passions: coding and GNU/Linux.",
+    description:
+      "A website that matches my two passions: coding and GNU/Linux.",
     technologies: ["Vite", "TypeScript", "ReactJS", "Tailwind CSS", "Vercel"],
     link: "https://switchtolinux.vercel.app/",
   },
@@ -24,20 +40,6 @@ const projectsData = [
       "A currency converter that I made for the R/Argentina-Programa course.",
     technologies: ["Vanilla JS", "RESTFul API", "HTML/CSS"],
     link: "https://aronmilenait.github.io/currency_converter/",
-  },
-  {
-    title: "Pokedex",
-    description: "Cute Pokedex that features the PokéAPI.",
-    technologies: [
-      "Vite",
-      "TypeScript",
-      "RESTFul API",
-      "ReactJS",
-      "Axios",
-      "Tailwind CSS",
-      "Vercel",
-    ],
-    link: "https://pokedex-milenasaron.vercel.app/",
   },
   {
     title: "Ocean Memotest",
