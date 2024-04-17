@@ -5,9 +5,9 @@ const AboutMe = () => {
       className="bg-gradient-to-r from-pink-50 to-pink-100 py-8"
     >
       <div className="container mx-auto max-w-4xl px-4">
-        <h1 className="text-4xl font-bold text-pink-900 mb-4 text-center">
+        <h2 className="text-4xl font-medium text-pink-900 mb-4 text-center">
           About me
-        </h1>
+        </h2>
         <p className="text-lg text-pink-900 mb-4">
           Hi! My name is Milena Sol Aron and I'm based in Buenos Aires, Argentina.
         </p>

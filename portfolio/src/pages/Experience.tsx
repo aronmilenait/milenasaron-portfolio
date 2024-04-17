@@ -2,7 +2,7 @@ const Experience = () => {
   return (
     <section id="experience" className="bg-white py-8">
       <div className="container mx-auto max-w-4xl px-4 flex flex-col items-center">
-        <h2 className="text-4xl font-bold mb-6 text-pink-950">Experience</h2>
+        <h3 className="text-4xl font-medium mb-6 text-pink-950">Experience</h3>
         <div className="text-left">
           <p className="text-2xl text-pink-900 mb-2 font-bold">
             Software Developer and Marketing Tech at Bigger (Australia)

@@ -9,3 +9,15 @@ body {
 header {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
+
+#header-text {
+  font-family: "Schoolbell", cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Homemade Apple", cursive;
+}
+
+footer {
+  font-family: "Schoolbell", cursive;
+}

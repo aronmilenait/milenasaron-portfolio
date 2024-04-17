@@ -19,8 +19,8 @@ const Header = () => {
           alt="Avatar"
           className="rounded-full border-4 border-pink-300 shadow-md w-24 h-24 md:w-32 md:h-32"
         />
-        <div className="ml-4">
-          <h1 className="text-2xl font-bold text-pink-900">Milena S. Aron</h1>
+        <div className="ml-4" id="header-text">
+          <h1 className="text-2xl font-medium text-pink-900">Milena Sol Aron</h1>
           <p className="text-xl text-pink-700">
             Full-Stack Developer &bull; Marketing Tech
           </p>

@@ -27,7 +27,7 @@ const Contact = () => {
       className="bg-gradient-to-r from-pink-50 to-pink-100 py-8"
     >
       <div className="container mx-auto text-center">
-        <h4 className="text-4xl font-bold mb-6 text-pink-900">Contact</h4>
+        <h6 className="text-4xl font-medium mb-6 text-pink-900">Contact</h6>
         <div className="flex justify-center items-center space-x-6 mb-8">
           {contacts.map((contact, index) => (
             <a

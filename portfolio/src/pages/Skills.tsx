@@ -26,9 +26,9 @@ const Skills = () => {
   return (
     <section className="bg-gradient-to-r from-pink-50 to-pink-100 py-8">
       <div className="container mx-auto max-w-4xl px-4">
-        <h2 className="text-4xl font-bold mb-6 text-pink-900 text-center">
+        <h4 className="text-4xl font-medium mb-6 text-pink-900 text-center">
           Skills
-        </h2>
+        </h4>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {skills.map((skill, index) => (
             <div
