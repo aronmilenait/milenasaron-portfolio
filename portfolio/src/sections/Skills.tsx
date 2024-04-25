@@ -3,28 +3,37 @@ import { motion, useAnimation } from "framer-motion";
 
 const Skills = () => {
   const skills = [
+    // Frontend Technologies
     "JavaScript",
     "TypeScript",
-    "Node.js",
-    "React.js",
     "HTML/CSS",
-    "Docker",
-    "MySQL",
-    "NestJS",
+    "React.js",
     "Vite",
     "Tailwind CSS",
     "Bootstrap",
+    // Backend Technologies
+    "Node.js",
+    "Python",
+    "Flask",
+    "NestJS",
+    "Docker",
+    "MySQL",
+    "SQLite",
+    // Testing and Automation
+    "Cypress",
+    "Jest",
+    // Others
+    "Git/Github",
+    "Linux",
+    "Bash",
+    // Marketing and Design
     "Webflow",
     "WordPress",
     "LeadPages",
     "Vero",
     "Liquid",
-    "Cypress",
-    "Jest",
-    "Git/Github",
-    "Linux",
-    "Bash",
   ];
+  
 
   const [isVisible, setIsVisible] = useState(false);
   const controls = useAnimation();
@@ -55,7 +64,7 @@ const Skills = () => {
   return (
     <section
       id="skills-section"
-      className="bg-gradient-to-r from-pink-50 to-pink-100 py-8"
+      className="bg-white py-8"
     >
       <div className="container mx-auto max-w-4xl px-4">
         <h4 className="text-4xl font-medium mb-6 text-pink-900 text-center">

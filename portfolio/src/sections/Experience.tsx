@@ -48,7 +48,6 @@ const Experience = () => {
             </motion.li>
             <motion.li>Testing with Cypress and Jest</motion.li>
             <motion.li>Welcome packs with Qwirl</motion.li>
-            <motion.li>Google Sheets</motion.li>
             <motion.li>
               Basic web and graphic design with Figma and Canva
             </motion.li>

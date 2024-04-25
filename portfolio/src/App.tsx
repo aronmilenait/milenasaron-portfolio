@@ -1,12 +1,12 @@
 import "./index.css";
 
-import Header from "./pages/Header";
-import AboutMe from "./pages/AboutMe";
-import Experience from "./pages/Experience";
-import Projects from "./pages/Projects";
-import Skills from "./pages/Skills";
-import Contact from "./pages/Contact";
-import Footer from "./pages/Footer";
+import Header from "./sections/Header";
+import AboutMe from "./sections/AboutMe";
+import Experience from "./sections/Experience";
+import Projects from "./sections/Projects";
+import Skills from "./sections/Skills";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
       <Header />
       <AboutMe />
       <Experience />
-      <Skills />
       <Projects />
+      <Skills />
       <Contact />
       <Footer />
     </>

@@ -1,14 +1,9 @@
 const educationData = [
   {
-    title: "Linux System Administrator",
-    institution: "Carrera Linux",
-    duration: "February 2024 - October 2024",
-  },
-  {
-    title: "Full-Stack Developer",
-    institution: "Argentina Programa",
-    duration: "June 2023 - December 2023",
-  },
+    title: "Associate's degree in programming",
+    institution: "Universidad Tecnológica Nacional (UTN)",
+    duration: "May 2024 - May 2027",
+  }
 ];
 
 export default educationData;

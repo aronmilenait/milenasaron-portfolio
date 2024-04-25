@@ -22,8 +22,20 @@ const projectsData = [
     link: "https://switchtolinux.vercel.app/",
   },
   {
-    title: "Bookshelf (Back-end)",
-    description: "Book API that handles CRUD operations.",
+    title: "Persephone",
+    description: "Basic task management app with CRUD functions and input validation.",
+    technologies: [
+      "Python",
+      "Flask",
+      "SQLite",
+      "HTML",
+      "Tailwind CSS"
+    ],
+    link: "https://github.com/aronmilenait/persephone-app"
+  },
+  {
+    title: "Bookshelf",
+    description: "Book API with CRUD functions (without front-end development)",
     technologies: [
       "NestJS",
       "TypeScript",
@@ -38,30 +50,16 @@ const projectsData = [
     title: "Currency Converter",
     description:
       "A currency converter that I made for the R/Argentina-Programa course.",
-    technologies: ["Vanilla JS", "RESTFul API", "HTML/CSS"],
+    technologies: ["JavaScript", "REST API", "HTML/CSS"],
     link: "https://aronmilenait.github.io/currency_converter/",
   },
   {
     title: "Ocean Memotest",
     description:
-      "A game I made for the R/Argentina-Programa course. It's in spanish, my native language!",
-    technologies: ["Vanilla JS", "Bootstrap", "HTML/CSS"],
+      "A game I made for the R/Argentina-Programa course (in spanish)",
+    technologies: ["JavaScript", "Bootstrap", "HTML/CSS"],
     link: "https://aronmilenait.github.io/memotest/",
   },
-  {
-    title: "Pokedex",
-    description: "Cute Pokedex that features the PokéAPI.",
-    technologies: [
-      "Vite",
-      "TypeScript",
-      "RESTFul API",
-      "ReactJS",
-      "Axios",
-      "Tailwind CSS",
-      "Vercel",
-    ],
-    link: "https://pokedex-milenasaron.vercel.app/",
-  }
 ];
 
 export default projectsData;
