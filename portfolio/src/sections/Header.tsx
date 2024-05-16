@@ -48,7 +48,7 @@ const Header = () => {
             }}
             whileHover={{ color: "#f472b6" }}
           >
-            Full-Stack Developer &bull; Marketing Tech
+            Full Stack and Web Developer
           </motion.p>
         </div>
       </div>

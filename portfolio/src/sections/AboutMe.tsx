@@ -21,8 +21,7 @@ const AboutMe = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          Hi! My name is Milena Sol Aron and I'm based in Buenos Aires,
-          Argentina.
+          Hi! I'm Milena Sol Aron, and I'm based in Buenos Aires, Argentina.
         </motion.p>
         <motion.p
           className="text-lg text-pink-900 mb-4"
@@ -30,24 +29,24 @@ const AboutMe = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.6 }}
         >
-          Since June 2023, I have been working full-time at Bigger as a
-          <b> full-stack developer</b> (mainly front-end with TypeScript, React,
-          JavaScript, Vite and Tailwind CSS) and a part of the{" "}
-          <b>marketing tech</b> team. Also, I work as a{" "}
-          <b>low-code developer</b>, making website and landing pages with
-          platforms like Webflow and LeadPages.
+          Since June 2023, I’ve been working remotely at Bigger as a{" "}
+          <b>Full Stack Developer</b>, with a strong focus on front-end
+          technologies like TypeScript, React, JavaScript, and Vite.
+          Additionally, I work as a <b>Web Developer</b>, building websites
+          using platforms such as Webflow, WordPress, and LeadPages. My
+          responsibilities include creating landing pages, developing complex
+          websites from scratch, optimizing performance, and providing ongoing
+          maintenance. I also have experience with <b>marketing technologies</b>
+          , like managing email campaigns using Vero and creating welcome packs
         </motion.p>
         <motion.p
           className="text-lg text-pink-900 mb-4"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.8 }}
+          transition={{ duration: 0.5, delay: 0.6 }}
         >
-          Beyond coding, I'm actively pursuing{" "}
-          <b>Linux System Administration</b> as one of my hobbies. My experience
-          with this operating system dates back to 2015, encompassing diverse
-          tasks such as driver installation, system configuration, recovery
-          procedures, backup strategies, and more.
+          Since May 2024, I have been pursuing an <b>associate's degree</b> in
+          programming at the <b>Universidad Tecnológica Nacional (UTN).</b>
         </motion.p>
       </div>
     </section>
