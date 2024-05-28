@@ -1,9 +1,9 @@
 const projectsData = [
   {
     title: "Selene (Coming soon)",
-    description: "A web app and social network for astronomy enthusiasts.",
+    description: "Web app and social network for astronomy enthusiasts.",
     technologies: [
-      "Vite",
+      "NextJS",
       "TypeScript",
       "ReactJS",
       "AWS Cognito",
@@ -12,14 +12,23 @@ const projectsData = [
       "Tailwind CSS",
       "Axios",
     ],
-    link: "https://github.com/aronmilenait/selene-front-end",
+    link: "https://github.com/aronmilenait/selene-web-app",
+    image: "selene.png"
+  },
+  {
+    title: "Aleabreau (Coming soon)",
+    description: "Website for a small lingerie local business.",
+    technologies: ["NextJS", "TypeScript", "ReactJS", "Tailwind CSS"],
+    link: "https://github.com/aronmilenait/aleabreau-web",
+    image: "aleabreau.png"
   },
   {
     title: "Switch to Linux",
     description:
-      "A website that matches my two passions: coding and GNU/Linux.",
+      "Website that combines my two passions: coding and GNU/Linux.",
     technologies: ["Vite", "TypeScript", "ReactJS", "Tailwind CSS", "Vercel"],
     link: "https://switchtolinux.vercel.app/",
+    image: "switch-to-linux.png"
   },
   {
     title: "Persephone",
@@ -28,38 +37,19 @@ const projectsData = [
       "Python",
       "Flask",
       "SQLite",
-      "HTML",
       "Tailwind CSS"
     ],
-    link: "https://github.com/aronmilenait/persephone-app"
-  },
-  {
-    title: "Bookshelf",
-    description: "Book API with CRUD functions (without front-end development)",
-    technologies: [
-      "NestJS",
-      "TypeScript",
-      "Docker",
-      "MySQL",
-      "ReactJS",
-      "TypeORM",
-    ],
-    link: "https://github.com/aronmilenait/book-api",
+    link: "https://github.com/aronmilenait/persephone-app",
+    image: "persephone.png"
   },
   {
     title: "Currency Converter",
     description:
-      "A currency converter that I made for the R/Argentina-Programa course.",
+      "Minimalistic web app that allows users to convert currencies.",
     technologies: ["JavaScript", "REST API", "HTML/CSS"],
     link: "https://aronmilenait.github.io/currency_converter/",
-  },
-  {
-    title: "Ocean Memotest",
-    description:
-      "A game I made for the R/Argentina-Programa course (in spanish)",
-    technologies: ["JavaScript", "Bootstrap", "HTML/CSS"],
-    link: "https://aronmilenait.github.io/memotest/",
-  },
+    image: "currency-converter.png"
+  }
 ];
 
 export default projectsData;
