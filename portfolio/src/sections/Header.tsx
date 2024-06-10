@@ -1,56 +1,93 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
-import Sparkle from "react-sparkle";
-import avatar from "../assets/avatar3.png";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const navLinks = [
+    { name: "About", href: "#about" },
+    { name: "Experience", href: "#experience" },
+    { name: "Projects", href: "#projects" },
+    { name: "Skills", href: "#skills" },
+    { name: "Contact", href: "#contact" },
+  ];
+
   return (
-    <header className="bg-white text-pink-900 py-4 sticky top-0 z-50">
-      <Sparkle
-        color="#f472b6"
-        count={50}
-        minSize={5}
-        maxSize={12}
-        overflowPx={20}
-        fadeOutSpeed={10}
-        flicker={false}
-      />
-      <div className="container mx-auto flex items-center justify-center">
-        <motion.img
-          src={avatar}
-          alt="Avatar"
-          className="rounded-full border-4 border-pink-300 shadow-md w-24 h-24 md:w-32 md:h-32"
-          whileHover={{ scale: 1.1 }}
-          transition={{ duration: 0.3 }}
-        />
-        <div className="ml-4" id="header-text">
-          <motion.h1
-            className="text-3xl md:text-4xl font-medium text-pink-900"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{
-              duration: 0.5,
-              delay: 0.3,
-              type: "spring",
-              stiffness: 80,
-            }}
-          >
-            Milena Sol Aron
-          </motion.h1>
-          <motion.p
-            className="text-lg md:text-xl text-pink-700"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{
-              duration: 0.5,
-              delay: 0.5,
-              type: "spring",
-              stiffness: 80,
-            }}
-            whileHover={{ color: "#f472b6" }}
-          >
-            Full Stack and Web Developer
-          </motion.p>
+    <header className="bg-gradient-to-b from-pink-500 to-pink-400 text-pink-50 py-4 sticky top-0 z-50 shadow-md">
+      <div className="container mx-auto flex items-center justify-between px-4 md:px-8">
+        <div className="flex-grow">
+          <div className="ml-4 hidden md:block" id="header-text">
+            <motion.h1
+              className="text-xl md:text-xl font-bold whitespace-nowrap"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.5,
+                delay: 0.3,
+                type: "spring",
+                stiffness: 80,
+              }}
+            >
+              Milena Sol Aron
+            </motion.h1>
+            <motion.p
+              className="text-lg md:text-lg whitespace-nowrap text-pink-100 font-medium"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.5,
+                delay: 0.5,
+                type: "spring",
+                stiffness: 80,
+              }}
+            >
+              Full Stack & Web Developer
+            </motion.p>
+          </div>
         </div>
+        <div className="mr-4 md:hidden flex-grow-0 flex justify-center">
+          <button
+            onClick={toggleMenu}
+            className="hover:text-pink-950 focus:outline-none text-pink-50"
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"}
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <nav
+          className={`w-full ${
+            isOpen ? "block" : "hidden"
+          } md:block md:flex md:items-center md:justify-end`}
+        >
+          <ul className="flex flex-col items-center md:flex-row space-y-4 md:space-y-0 md:space-x-8 text-lg md:text-lg">
+            {navLinks.map((link) => (
+              <li key={link.href}>
+                <a
+                  href={link.href}
+                  className="text-white font-medium hover:text-pink-100 transition duration-300"
+                >
+                  {link.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
       </div>
     </header>
   );

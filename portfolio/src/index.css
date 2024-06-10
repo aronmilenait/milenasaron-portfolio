@@ -3,17 +3,9 @@
 @tailwind utilities;
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-header {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-
-#header-text, #projects-note, footer {
-  font-family: "Schoolbell", cursive;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Homemade Apple", cursive;
+h1, h2, h3, h4, h5, h6, header {
+  font-family: "Raleway", sans-serif;
 }
