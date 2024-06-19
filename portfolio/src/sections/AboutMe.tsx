@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const AboutMe = () => {
   return (
     <section
-      id="about-me"
+      id="about"
       className="bg-gradient-to-r from-pink-50 to-pink-100 py-8"
     >
       <div className="container mx-auto max-w-4xl px-4">
